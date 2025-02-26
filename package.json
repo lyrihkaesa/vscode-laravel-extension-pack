@@ -13,6 +13,11 @@
   ],
   "extensionPack": [
     "laravel.vscode-laravel",
-    "EditorConfig.EditorConfig"
+    "EditorConfig.EditorConfig",
+    "bradlc.vscode-tailwindcss",
+    "m1guelpf.better-pest",
+    "bmewburn.vscode-intelephense-client",
+    "xdebug.php-debug",
+    "MehediDracula.php-namespace-resolver"
   ]
 }
