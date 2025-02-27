@@ -8,7 +8,7 @@ Berupa catatan _history_ ekstension apa saja yang saya gunakan untuk project lar
 
 Ini ekstensi official buatan core tim laravel. Jadi pakai untuk menggantikan peran extension ini:
 
-- [Laravel Blade Snippets](https://marketplace.visualstudio.com/items?itemName=shufo.vscode-blade-formatter)  
+- [Laravel Blade Snippets](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-blade)  
   Beberapa snippets mungkin ini masih berguna. Tapi saya tidak menggunakan ini lagi karena ekstension official sudah cukup. Tapi saya disabled.
 - [Laravel Snippets](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel5-snippets)
 - [~~Laravel goto view~~](https://marketplace.visualstudio.com/items?itemName=codingyu.laravel-goto-view)
@@ -16,7 +16,7 @@ Ini ekstensi official buatan core tim laravel. Jadi pakai untuk menggantikan per
 - [Laravel Extra Intellisense](https://marketplace.visualstudio.com/items?itemName=amiralizadeh9480.laravel-extra-intellisense)  
   Belum tahu apa saja yang kubutuhkan untuk ekstensi ini jadi saya disabled.
 - [~~Laravel-goto-components~~](https://marketplace.visualstudio.com/items?itemName=naoray.laravel-goto-components)
-- [~~Laravel Blade formatter~~](https://marketplace.visualstudio.com/items?itemName=ryannaddy.laravel-artisan)
+- [~~Laravel Blade formatter~~](https://marketplace.visualstudio.com/items?itemName=shufo.vscode-blade-formatter)
   Mungkin beberapa snippets masih berguna. Tapi saya disabled.
 - [~~Laravel Create View~~](https://marketplace.visualstudio.com/items?itemName=glitchbl.laravel-create-view)
 
@@ -57,6 +57,8 @@ Saya kurang tahu cara menggunakan ini, mungkin untuk meminimalisir debuging deng
 ### [PHP Namespace Resolver](https://marketplace.visualstudio.com/items?itemName=MehediDracula.php-namespace-resolver)
 
 Saya gunakan untuk import dan expand php namespace.
+
+### [PHP IntelliSense](https://marketplace.visualstudio.com/items?itemName=zobo.php-intellisense)
 
 ---
 
@@ -165,7 +167,7 @@ Dibawah ini ekstensi yang saya pakai.
 
 Daftar Ekstensi:
 
-- [P1: GitHub Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)  
+- [P1: GitHub Theme](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme)  
   Supaya terbiasa dengan tampilan github saja, saat debug langsung lewat github.
 - [P1: Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
   Saya suka icon-nya.
@@ -255,6 +257,7 @@ Daftar Ekstensi:
 - [~~P4: Syntax Highligh Theme~~](https://marketplace.visualstudio.com/items?itemName=peaceshi.syntax-highlight)  
   Sudah tidak saya gunakan lagi karena setiap bahasa pemprograman biasanya sudah ada ekstension sendiri yang menangani highlight.
 - [P4: TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
+- [P4: PlantUML](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml)
 
 ## P4: Markdown
 
