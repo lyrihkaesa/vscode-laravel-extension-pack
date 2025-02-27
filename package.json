@@ -2,7 +2,7 @@
   "name": "kaesa-laravel-extension-pack",
   "displayName": "Kaesa Laravel Extension Pack",
   "description": "Koleksi ekstensi untuk pengembangan project Laravel",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "publisher": "lyrihkaesa",
   "icon": "images/icon-128x128.png",
   "repository": {
@@ -17,11 +17,25 @@
   ],
   "extensionPack": [
     "laravel.vscode-laravel",
+    "austenc.laravel-blade-spacer",
+    "IHunte.laravel-blade-wrapper",
+    "bmewburn.vscode-intelephense-client",
+    "MehediDracula.php-namespace-resolver",
+    "damms005.devdb",
     "EditorConfig.EditorConfig",
     "bradlc.vscode-tailwindcss",
     "m1guelpf.better-pest",
-    "bmewburn.vscode-intelephense-client",
     "xdebug.php-debug",
-    "MehediDracula.php-namespace-resolver"
+    "pcbowers.alpine-intellisense",
+    "cierra.livewire-vscode",
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-rename-tag",
+    "ecmel.vscode-html-css",
+    "Zignd.html-css-class-completion",
+    "xabikos.JavaScriptSnippets",
+    "Cardinal90.multi-cursor-case-preserve",
+    "leizongmin.node-module-intellisense",
+    "dansysanalyst.pest-snippets",
+    "zobo.php-intellisense"
   ]
 }
