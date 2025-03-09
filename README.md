@@ -9,7 +9,7 @@ Berupa catatan _history_ ekstension apa saja yang saya gunakan untuk project lar
 Ini ekstensi official buatan core tim laravel. Jadi pakai untuk menggantikan peran extension ini:
 
 - [Laravel Blade Snippets](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-blade)  
-  Beberapa snippets mungkin ini masih berguna. Tapi saya tidak menggunakan ini lagi karena ekstension official sudah cukup. Tapi saya disabled.
+  Ternyata tanpa ini tidak muncul `Emmet` html di blade template jadi masih butuh ini.
 - [Laravel Snippets](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel5-snippets)
 - [~~Laravel goto view~~](https://marketplace.visualstudio.com/items?itemName=codingyu.laravel-goto-view)
 - [~~laravel-jump-controller~~](https://marketplace.visualstudio.com/items?itemName=pgl.laravel-jump-controller)
@@ -271,3 +271,23 @@ Daftar Ekstensi:
 - [P4: Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
 - [P4: Remote - SSH: Editing Configuation Files](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh-edit)
 - [P4: Remote Explorer](https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-explorer)
+
+## Cara Deploy Eksntesion ke Marketplac
+
+Cek apakah `vsce` sudah terpasang.
+
+```bash
+vsce --version
+```
+
+Jika belum terpasang karena pindah versi nodejs menggunakan nvm. Silahkan jalankan perintah berikut:
+
+```bash
+npm install -g @vscode/vsce
+```
+
+Jika sudah silahkan publish
+
+```bash
+vsce publish
+```

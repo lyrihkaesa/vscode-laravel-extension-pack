@@ -2,7 +2,7 @@
   "name": "kaesa-laravel-extension-pack",
   "displayName": "Kaesa Laravel Extension Pack",
   "description": "Koleksi ekstensi untuk pengembangan project Laravel",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "publisher": "lyrihkaesa",
   "icon": "images/icon-128x128.png",
   "repository": {
@@ -19,6 +19,7 @@
     "laravel.vscode-laravel",
     "austenc.laravel-blade-spacer",
     "IHunte.laravel-blade-wrapper",
+    "onecentlin.laravel-blade",
     "bmewburn.vscode-intelephense-client",
     "MehediDracula.php-namespace-resolver",
     "damms005.devdb",

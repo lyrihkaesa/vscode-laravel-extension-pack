@@ -4,6 +4,12 @@ All notable changes to the "kaesa-laravel-extension-pack" extension pack will be
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.1.2] - 2025-03-09
+
+### Add +1 Ekstensions, Total: 22 Ekstensions
+
+- Menambahkan ekstensi [Laravel Blade Snippets](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-blade)
+
 ## [0.1.1] - 2025-02-27
 
 ### Added +14 Ekstensions, Total: 21 Ekstensions
