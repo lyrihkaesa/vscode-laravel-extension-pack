@@ -4,6 +4,12 @@ All notable changes to the "kaesa-laravel-extension-pack" extension pack will be
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.1.3] - 2025-03-26
+
+### Add +1 Ekstensions, Total: 22 Ekstensions
+
+- Menambahkan ekstensi [Composer](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.composer-php-vscode)
+
 ## [0.1.2] - 2025-03-09
 
 ### Add +1 Ekstensions, Total: 22 Ekstensions

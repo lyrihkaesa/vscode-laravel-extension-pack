@@ -2,7 +2,7 @@
   "name": "kaesa-laravel-extension-pack",
   "displayName": "Kaesa Laravel Extension Pack",
   "description": "Koleksi ekstensi untuk pengembangan project Laravel",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "publisher": "lyrihkaesa",
   "icon": "images/icon-128x128.png",
   "repository": {
@@ -37,6 +37,7 @@
     "Cardinal90.multi-cursor-case-preserve",
     "leizongmin.node-module-intellisense",
     "dansysanalyst.pest-snippets",
-    "zobo.php-intellisense"
+    "zobo.php-intellisense",
+    "DEVSENSE.composer-php-vscode"
   ]
 }

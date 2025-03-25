@@ -60,6 +60,16 @@ Saya gunakan untuk import dan expand php namespace.
 
 ### [PHP IntelliSense](https://marketplace.visualstudio.com/items?itemName=zobo.php-intellisense)
 
+-
+
+### [Composer](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.composer-php-vscode)
+
+- Terdapat command `CTRL` + `SHIFT` + `P` lalu ketik `Composer`.
+- Dapat melihat versi yang sedang dipakai serta ada sugestion `CTRL` + `SPACE`.  
+  <video controls src="images/DEVSENSE.composer-php-vscode-01.mp4" title="Composer"></video>
+
+Dan mungkin masih banyak lagi silahkan cek penjelasannya di README extensions tersebut.
+
 ---
 
 ## Ekstensi Wajib untuk HTML, CSS, Javascript
@@ -107,10 +117,6 @@ Biasanya saya gunakan untuk menyebunyikan class TailwindCSS supaya mudah dibaca 
 ### Opsional: [Pest Snippets](https://marketplace.visualstudio.com/items?itemName=dansysanalyst.pest-snippets)
 
 Dapat dilihat ini snippets untuk testing laravel dengan `Pest`.
-
-### Opsional: [Composer](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.composer-php-vscode)
-
-Cara pakai `CTRL` + `SHIFT` + `P` lalu ketik `Composer`.
 
 ### Opsional: [IntelliPHP - AI Autocomplete for PHP](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.intelli-php-vscode)
 
