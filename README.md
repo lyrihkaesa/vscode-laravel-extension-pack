@@ -66,7 +66,7 @@ Saya gunakan untuk import dan expand php namespace.
 
 - Terdapat command `CTRL` + `SHIFT` + `P` lalu ketik `Composer`.
 - Dapat melihat versi yang sedang dipakai serta ada sugestion `CTRL` + `SPACE`.  
-  <video controls src="images/DEVSENSE.composer-php-vscode-01.mp4" title="Composer"></video>
+  ![Composer](images/DEVSENSE.composer-php-vscode.gif)
 
 Dan mungkin masih banyak lagi silahkan cek penjelasannya di README extensions tersebut.
 
