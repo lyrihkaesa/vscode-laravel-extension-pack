@@ -2,31 +2,37 @@
 
 Berupa catatan _history_ ekstension apa saja yang saya gunakan untuk project laravel. Anda bisa diskusi tentang ekstension yang sering Anda gunakan dalam project pada Github Discussion: https://github.com/lyrihkaesa/vscode-laravel-extension-pack/discussions .
 
+Legen:
+
+- ✅ Sudah ada di Ekstension Pack
+- ⚠ Belum ada di Ekstension Pack (Install Terpisah)
+
 ## Ekstensi Wajib Laravel Developer
 
-- [Laravel Official VS Code Extension](https://marketplace.visualstudio.com/items?itemName=laravel.vscode-laravel)  
+- [✅ Laravel Official VS Code Extension](https://marketplace.visualstudio.com/items?itemName=laravel.vscode-laravel)  
   Ini ekstensi official buatan core tim laravel. Jadi pakai untuk menggantikan peran extension ini:
 
-  - [~~Laravel goto view~~](https://marketplace.visualstudio.com/items?itemName=codingyu.laravel-goto-view) ✅ Tergantikan `Laravel Official VS Code Extension`
-  - [~~laravel-jump-controller~~](https://marketplace.visualstudio.com/items?itemName=pgl.laravel-jump-controller) ✅ Tergantikan `Laravel Official VS Code Extension`
-  - [~~Laravel Create View~~](https://marketplace.visualstudio.com/items?itemName=glitchbl.laravel-create-view) ✅ Tergantikan `Laravel Official VS Code Extension`
-  - [~~Laravel-goto-components~~](https://marketplace.visualstudio.com/items?itemName=naoray.laravel-goto-components) ✅ Tergantikan `Laravel Official VS Code Extension`
-  - [Laravel Extra Intellisense](https://marketplace.visualstudio.com/items?itemName=amiralizadeh9480.laravel-extra-intellisense)  
-    Belum tahu apa saja yang kubutuhkan untuk ekstensi ini jadi bisa di disabled.
-  - [Laravel Snippets](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel5-snippets)
-  - [Laravel Blade Snippets](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-blade)  
+  - [~~❌ Laravel goto view~~](https://marketplace.visualstudio.com/items?itemName=codingyu.laravel-goto-view) ✅ Tergantikan `Laravel Official VS Code Extension`
+  - [~~❌ laravel-jump-controller~~](https://marketplace.visualstudio.com/items?itemName=pgl.laravel-jump-controller) ✅ Tergantikan `Laravel Official VS Code Extension`
+  - [~~❌ Laravel Create View~~](https://marketplace.visualstudio.com/items?itemName=glitchbl.laravel-create-view) ✅ Tergantikan `Laravel Official VS Code Extension`
+  - [~~❌ Laravel-goto-components~~](https://marketplace.visualstudio.com/items?itemName=naoray.laravel-goto-components) ✅ Tergantikan `Laravel Official VS Code Extension`
+  - [⚠ Laravel Extra Intellisense](https://marketplace.visualstudio.com/items?itemName=amiralizadeh9480.laravel-extra-intellisense)  
+    Belum tahu betul kegunaan ekstensi ini jadi saya disabled.
+  - [⚠ Laravel Snippets](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel5-snippets)  
+    Belum tahu betul kegunaan ekstensi ini jadi saya disabled.
+  - [✅ Laravel Blade Snippets](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-blade)  
     Ternyata tanpa ini tidak muncul `Emmet` html di blade template jadi masih butuh ini.
-  - [Laravel Blade formatter](https://marketplace.visualstudio.com/items?itemName=shufo.vscode-blade-formatter)  
+  - [✅ Laravel Blade formatter](https://marketplace.visualstudio.com/items?itemName=shufo.vscode-blade-formatter)  
     Dibutuhkan untuk format file `.blade.php` karena kalau pakai `Laravel Blade Snippets` hasilnya kurang bagus. Sebenarnya saya ingin mencoba `Laravel Pint` tepi belum paham, nanti akan di perbarui jika sudah paham.
     ![Laravel Blade formatter](images/shufo.vscode-blade-formatter.gif)
 
-- [Laravel Blade Spacer](https://marketplace.visualstudio.com/items?itemName=austenc.laravel-blade-spacer)
+- [✅ Laravel Blade Spacer](https://marketplace.visualstudio.com/items?itemName=austenc.laravel-blade-spacer)  
   ![Laravel Blade Spacer](images/austenc.laravel-blade-spacer.gif)
 
-- [Laravel Blade Wrapper](https://marketplace.visualstudio.com/items?itemName=IHunte.laravel-blade-wrapper)  
-  Digunakan untuk wrap tag html dengan blade directive. Command `CTRL + SHIFT + T`.
+- [✅ Laravel Blade Wrapper](https://marketplace.visualstudio.com/items?itemName=IHunte.laravel-blade-wrapper)  
+  Digunakan untuk wrap tag html dengan blade directive. Command `CTRL + SHIFT + T`. Bisa di disable jika jarang digunakan.
 
-- [DevDb](https://marketplace.visualstudio.com/items?itemName=damms005.devdb)
+- [✅ DevDb](https://marketplace.visualstudio.com/items?itemName=damms005.devdb)
 
   - Ekstensi `Database Client` yang digunakan untuk mengelola data pada database.
   - Database yang disupport itu `MySQL`, `SQLite`, `PostgreSQL`
@@ -34,51 +40,47 @@ Berupa catatan _history_ ekstension apa saja yang saya gunakan untuk project lar
   - ✅ Pada `MySQL` bisa untuk edit/delete data-nya.
   - Ini digunakan untuk menggantikan peranan dari Database Client seperti `PhpMyAdmin`, `HeidiSQL`, dsb.
 
-- [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)  
-  Yeah, karena laravel sekarang default skeleton-nya atau Starter Kit-nya menggunakan Tailwind CSS jadi ini saya butuhkan.
+- [✅ PHP Namespace Resolver](https://marketplace.visualstudio.com/items?itemName=MehediDracula.php-namespace-resolver)  
+  Saya gunakan untuk import dan expand php namespace. Alias auto import file/package PHP Class.  
+  ![PHP Namespace Resolver](images/MehediDracula.php-namespace-resolver.gif)
+- [✅ Composer](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.composer-php-vscode)
 
-- [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)  
-  Digunakan untuk kolaborasi supaya style kode-nya sama antar programmer.
-
-- [Better Pest](https://marketplace.visualstudio.com/items?itemName=m1guelpf.better-pest)  
-  Karena saya testing project laravel menggunakan package `PEST`, jadi mungkin saya butuh ini.
-
-- [PHP Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client)  
-  Karena laravel menggunakan PHP, jadi ini dibutuhkan.
-
-- [PHP Debug](https://marketplace.visualstudio.com/items?itemName=xdebug.php-debug)  
-  Butuh eksplore lebih lanjut, saya belum paham.  
-  Saya kurang tahu cara menggunakan ini, mungkin untuk meminimalisir debuging dengan `dd()`, `dump()`.
-
-- [PHP Namespace Resolver](https://marketplace.visualstudio.com/items?itemName=MehediDracula.php-namespace-resolver)  
-  Saya gunakan untuk import dan expand php namespace. Alias auto import file/package PHP Class.
-
-- [PHP IntelliSense](https://marketplace.visualstudio.com/items?itemName=zobo.php-intellisense)
-
-- [Composer](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.composer-php-vscode)
   - Terdapat command `CTRL` + `SHIFT` + `P` lalu ketik `Composer`
   - Dapat melihat versi yang sedang dipakai serta ada sugestion `CTRL` + `SPACE`.  
     ![Composer](images/DEVSENSE.composer-php-vscode.gif)
     Dan mungkin masih banyak lagi silahkan cek penjelasannya di README extensions tersebut.
 
+- [✅ Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)  
+  Yeah, karena laravel sekarang default skeleton-nya atau Starter Kit-nya menggunakan Tailwind CSS jadi ini saya butuhkan.
+- [✅ PHP Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client)  
+  Karena laravel menggunakan PHP, jadi ini dibutuhkan.
+- [✅ PHP IntelliSense](https://marketplace.visualstudio.com/items?itemName=zobo.php-intellisense)
+- [✅ PHP Debug](https://marketplace.visualstudio.com/items?itemName=xdebug.php-debug)  
+  Butuh eksplore lebih lanjut, saya belum paham.  
+  Saya kurang tahu cara menggunakan ini, mungkin untuk meminimalisir debuging dengan `dd()`, `dump()`.
+- [✅ EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)  
+  Digunakan untuk kolaborasi supaya style kode-nya sama antar programmer.
+- [✅ Better Pest](https://marketplace.visualstudio.com/items?itemName=m1guelpf.better-pest)  
+   Karena saya testing project laravel menggunakan package `PEST`, jadi mungkin saya butuh ini.
+
 ---
 
 ## Ekstensi Wajib untuk HTML, CSS, Javascript
 
-- [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
-- [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)  
+- [✅ Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
+- [✅ Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)  
   Supaya bisa rename (ganti nama) tag html. Jadi saat rename tag pembuka, tag penutupnya juga auto ke-rename.
-- [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css)  
+- [✅ HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css)  
   CSS Intellisense for HTML
-- [IntelliSense for CSS class names in HTML](https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion)  
+- [✅ IntelliSense for CSS class names in HTML](https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion)  
   CSS Intellisense for HTML
-- [Multiple cursor case preserve](https://marketplace.visualstudio.com/items?itemName=Cardinal90.multi-cursor-case-preserve)  
+- [✅ Multiple cursor case preserve](https://marketplace.visualstudio.com/items?itemName=Cardinal90.multi-cursor-case-preserve)  
   Ini saya gunakan supaya case huruf kapital dan kecil tidak berubah saat edting dengan multiple cursor `CTRL + D` atau `ALT + RIGHT MOUSE CLICK`.
-- [Node.js Modules Intellisense](https://marketplace.visualstudio.com/items?itemName=leizongmin.node-module-intellisense)  
+- [✅ Node.js Modules Intellisense](https://marketplace.visualstudio.com/items?itemName=leizongmin.node-module-intellisense)  
   Ini digunakan untuk import module nodejs.
-- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)  
+- [✅ ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)  
   Linter untuk javascript.
-- [JavaScript (ES6 code snippets)](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
+- [✅ JavaScript (ES6 code snippets)](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets)
 - Opsional: [JavaScript and TypeScript Nightly](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-next)  
   Pasang jika project menggunakan `TypeScript`.
 
@@ -100,7 +102,7 @@ Berupa catatan _history_ ekstension apa saja yang saya gunakan untuk project lar
 
 ## Laravel Livewire Stater Kit
 
-- [Alpine.js IntelliSense by P. C. Bowers](https://marketplace.visualstudio.com/items?itemName=pcbowers.alpine-intellisense)  
+- [✅ Alpine.js IntelliSense by P. C. Bowers](https://marketplace.visualstudio.com/items?itemName=pcbowers.alpine-intellisense)  
   Ekstensi ini berfungsi sebagai:
 
   - IntelliSense
@@ -114,7 +116,7 @@ Berupa catatan _history_ ekstension apa saja yang saya gunakan untuk project lar
 
   Saya sudah uji coba, bagusnya punya `P. C. Bowers` karena snippets-nya banyak.
 
-- [Livewire Language Support](https://marketplace.visualstudio.com/items?itemName=cierra.livewire-vscode)  
+- [✅ Livewire Language Support](https://marketplace.visualstudio.com/items?itemName=cierra.livewire-vscode)  
   Jika anda menggunakan livewire wajib install ekstensi ini.
 
 ## Laravel Vue Stater Kit
@@ -239,7 +241,7 @@ Daftar Ekstensi:
 - [P4: Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
 - [P4: markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
 
-## P4 Remote by Microsot
+## P4 Remote by Microsotf
 
 - [P4: WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl)
 - [P4: Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)

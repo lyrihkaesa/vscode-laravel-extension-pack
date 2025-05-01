@@ -2,7 +2,7 @@
   "name": "kaesa-laravel-extension-pack",
   "displayName": "Kaesa Laravel Extension Pack",
   "description": "Koleksi ekstensi untuk pengembangan project Laravel",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "publisher": "lyrihkaesa",
   "icon": "images/icon-128x128.png",
   "repository": {

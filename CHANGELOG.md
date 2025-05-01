@@ -6,19 +6,24 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [0.1.4] - 2025-05-02
 
-### Add +1 Ekstensions, Total: 23 Ekstensions
+- Tidak ada tambahan ekstensi
+- Hanya fix dokumentasi
+
+## [0.1.4] - 2025-05-02
+
+### Add +1 Ekstensions, Total: 24 Ekstensions
 
 - Menambahkan ekstensi [Laravel Blade formatter](https://marketplace.visualstudio.com/items?itemName=shufo.vscode-blade-formatter)
 
 ## [0.1.3] - 2025-03-26
 
-### Add +1 Ekstensions, Total: 22 Ekstensions
+### Add +1 Ekstensions, Total: 23 Ekstensions
 
 - Menambahkan ekstensi [Composer](https://marketplace.visualstudio.com/items?itemName=DEVSENSE.composer-php-vscode)
 
 ## [0.1.2] - 2025-03-09
 
-### Add +1 Ekstensions, Total: 22 Ekstensions
+### Add +1 Ekstensions, Total: 2 Ekstensions
 
 - Menambahkan ekstensi [Laravel Blade Snippets](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-blade)
 
