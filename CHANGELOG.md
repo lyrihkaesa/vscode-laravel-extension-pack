@@ -4,6 +4,12 @@ All notable changes to the "kaesa-laravel-extension-pack" extension pack will be
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.1.4] - 2025-05-02
+
+### Add +1 Ekstensions, Total: 23 Ekstensions
+
+- Menambahkan ekstensi [Laravel Blade formatter](https://marketplace.visualstudio.com/items?itemName=shufo.vscode-blade-formatter)
+
 ## [0.1.3] - 2025-03-26
 
 ### Add +1 Ekstensions, Total: 22 Ekstensions
