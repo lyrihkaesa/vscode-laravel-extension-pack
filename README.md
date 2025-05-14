@@ -62,6 +62,8 @@ Legen:
   Digunakan untuk kolaborasi supaya style kode-nya sama antar programmer.
 - [✅ Better Pest](https://marketplace.visualstudio.com/items?itemName=m1guelpf.better-pest)  
    Karena saya testing project laravel menggunakan package `PEST`, jadi mungkin saya butuh ini.
+- [✅ Laravel Pint](https://marketplace.visualstudio.com/items?itemName=open-southeners.laravel-pint)  
+  Karena saya menggunakan Laravel Pint maka saya perlu ekstensi ini sebagai default format file `php` dalam project laravel saya. Anda bisa disable ini jika anda menggunakan formatter lain.
 
 ---
 

@@ -4,7 +4,13 @@ All notable changes to the "kaesa-laravel-extension-pack" extension pack will be
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [0.1.4] - 2025-05-02
+## [0.1.6] - 2025-05-14
+
+### Add +1 Ekstensions, Total: 25 Ekstensions
+
+- Menambahkan ekstensi [✅ Laravel Pint](https://marketplace.visualstudio.com/items?itemName=open-southeners.laravel-pint)
+
+## [0.1.5] - 2025-05-02
 
 - Tidak ada tambahan ekstensi
 - Hanya fix dokumentasi
